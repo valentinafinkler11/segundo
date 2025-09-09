@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourLifestyle - Aluguel de Equipamentos Esportivos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>YourLifestyle</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-action="home">Início</a></li>
+                <li><a href="#" data-action="equipamentos">Equipamentos</a></li>
+                <li><a href="#" data-action="how-it-works">Como Funciona</a></li>
+                <li><a href="#" data-action="contact">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#" class="btn-login" data-action="login">Entrar</a>
+            <a href="#" class="btn-signup" data-action="signup">Cadastrar</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Encontre o equipamento perfeito para sua aventura!</h2>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Pesquisar por equipamento ou local...">
+                    <button id="searchButton"><i class="fas fa-search"></i> Pesquisar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h3>Categorias Populares</h3>
+            <div class="category-grid">
+                <div class="category-item" data-category="bicicletas">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_828877-MLB73023476944_112023-O-bicicleta-aro-29-aco-carbono-ksvj-freios-disco-suspenso-21v.webp" alt="Bicicletas">
+                    <p>Bicicletas</p>
+                </div>
+                <div class="category-item" data-category="skates">
+                    <img src="https://www.havan.com.br/media/catalog/product/cache/73a52df140c4d19dbec2b6c485ea6a50/s/k/skate-radical-iniciante-arcade-sol-bel-fix_759059.webp" alt="Skates">
+                    <p>Skates</p>
+                </div>
+                <div class="category-item" data-category="patins">
+                    <img src="https://cdn.awsli.com.br/600x450/524/524394/produto/158714000/1-4jw5gijsps.png" alt="Patins">
+                    <p>Patins</p>
+                </div>
+        
+                <div class="category-item" data-category="camping">
+                    <img src="https://casadomontanhista.com.br/media/magefan_blog/IMG_4795.JPG" alt="Equipamentos de Camping">
+                    <p>Camping</p>
+                </div>
+                <div class="category-item" data-category="caiaques">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDZ6NUCTHF2db2L3KHDjiYQByDjAPcV4lyRA&s" alt="Caiaques">
+                    <p>Caiaques</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-listings">
+            <h3>Destaques</h3>
+            <div class="listing-grid" id="listing-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Sobre a LocaSports</h3>
+                <p>Nossa missão é conectar aventureiros a equipamentos de qualidade, tornando o esporte acessível a todos.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#" data-action="faq">FAQ</a></li>
+                    <li><a href="#" data-action="terms">Termos de Serviço</a></li>
+                    <li><a href="#" data-action="privacy">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contato</h3>
+                <p><i class="fas fa-envelope"></i> contato@.com</p>
+                <p><i class="fas fa-phone"></i> (51) </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 YourLifestyle. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
